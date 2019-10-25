@@ -1,68 +1,22 @@
+# Dear Data by Ping
+
+[Visit the site](https://deardata.yenpingchew.com)
+
+This project is inspired by [Dear Data](http://www.dear-data.com/theproject), where two designers send each other postcards illustrated with data that they've collected through out the week.
+
+I love the way they track and illustrate these different data points of their lives, which are kinda unconventional.
+
+I'm taking a spin on their project, to push myself to do a few things:
+1. Track unconventional and random data in my life, perhaps to think objectively about these parts of my lives.
+2. Play around with these data and discover ways to illustrate them digitally.
+
+### Data by weeks
+1. 2019 Oct 20 - A week of negative emotions
+2. 2019 Oct 28 - A week of positive emotions
+
+
+### Technical details
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Data are illustrated with [Roughviz](https://github.com/jwilber/roughViz) (using the [React wrapper](https://github.com/Chris927/react-roughviz)).
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Deployed on [![Netlify](https://api.netlify.com/api/v1/badges/138bc56a-dbdc-4d00-b706-7bdcb2c4021a/deploy-status)](https://app.netlify.com/sites/deardata/deploys).
