@@ -2,7 +2,7 @@
 
 [Visit the site](https://deardata.yenpingchew.com)
 
-This project is inspired by [Dear Data](http://www.dear-data.com/theproject), where two designers send each other postcards illustrated with data that they've collected through out the week.
+This project is inspired by [Dear Data](http://www.dear-data.com/theproject), where two designers send each other postcards illustrated with data that they've collected throughout the week.
 
 I love the way they track and illustrate these different data points of their lives, which are kinda unconventional.
 
