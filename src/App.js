@@ -1,6 +1,8 @@
 import React from 'react';
 import LineChart from './components/lineChart'
 import windowSize from 'react-window-size';
+import ReactGA from 'react-ga';
+
 import './App.scss';
 
 class App extends React.Component {
@@ -21,21 +23,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.getData()
-  }
-
-  getData() {
-    fetch(`${this.state.dataURL}/writeup.json`)
-      .then(response => response.json())
-      .then((data) => {
-        this.setState({dataJson: data})
-    })
-  }
-
-  extractData(data, key) {
-    if (data !== null) {
-      return data[key]
-    }
+    ReactGA.initialize('UA-79655857-1');
+    ReactGA.pageview("/deardata");
   }
 
   render() {
