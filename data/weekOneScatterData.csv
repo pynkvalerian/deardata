@@ -17,5 +17,5 @@ Days,Time,Scale,Category
 4,22.30,4,personal
 5,09.00,2,work
 5,17.00,2,personal
-6,09.00,2,work
-6,11.00,2,project
+6,09.00,1,work
+6,11.00,1,project
