@@ -12,7 +12,7 @@ class App extends React.Component {
     if (props.windowWidth > 550) {
       maxWidth = 960/2
     } else {
-      maxWidth = props.windowWidth * .8
+      maxWidth = props.windowWidth * .9
     }
 
     this.state = {

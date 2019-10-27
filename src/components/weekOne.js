@@ -12,15 +12,13 @@ export default class WeekOne extends React.Component {
         <div className="one-half column">
           <Scatter
             data={{
-              x: [1,1,1,1,1,2,2,2,2,2,3,3,3,4,4,4,5,5,6,6],
-              y: [8,16,16.5,20.5,22,8,12,15,16,18.5,9,11,23,11.5,17,22.5,9,17,9,11]
+              x: [1,1,1,1,1,2,2,2,2,2,3,3,3,4,4,4,5,5,6,6,6,7,7,7],
+              y: [8,16,16.5,20.5,22,8,12,15,16,18.5,9,11,23,11.5,17,22.5,9,17,9,11,21,10,13,17.5]
             }}
             title='Negative Emotions'
-            x='Time'
-            y='Days'
             fillWeight={4}
-            radius={[20,30,50,10,20,20,30,30,30,50,20,20,50,30,30,40,20,20,20,10]}
-            colors={["#fdcc8a","#fc8d59","#b30000","#fef0d9","#fdcc8a","#fdcc8a","#fc8d59","#fc8d59","#fc8d59","#b30000","#fdcc8a","#fdcc8a","#b30000","#fc8d59","#fc8d59","#e34a33","#fdcc8a","#fdcc8a","#fdcc8a","#fef0d9"]}
+            radius={[20,30,50,10,20,20,30,30,30,50,20,20,50,30,30,40,20,20,20,10,10,10,20,20]}
+            colors={["#fdcc8a","#fc8d59","#b30000","#fef0d9","#fdcc8a","#fdcc8a","#fc8d59","#fc8d59","#fc8d59","#b30000","#fdcc8a","#fdcc8a","#b30000","#fc8d59","#fc8d59","#e34a33","#fdcc8a","#fdcc8a","#fdcc8a","#fef0d9","#fef0d9","#fef0d9","#fdcc8a","#fdcc8a"]}
             stroke='red'
             strokeWidth={0.4}
             roughness={1}
